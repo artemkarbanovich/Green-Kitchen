@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>События</title>
+    <link rel="shortcut icon" href="images/icon_events.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/commonstyles.css">
+    <link rel="stylesheet" href="css/eventsstyle.css">
+</head>
+
+<body>
+
+    <header class="header__common">
+        <div class="header__common-top">
+            <div class="header__common-logo">
+                <img src="images/logo.png" alt="логотип">
+            </div>
+            <div class="return-on__mainpage">
+                <a href="index.html" title="на главную страницу">На главную</a>
+            </div>
+        </div>
+        <div class="header__common-content">
+            Events
+        </div>
+        <div class="header__common-greenkitchen">
+            Green kitchen
+        </div>
+    </header>
+
+    <section class="about__events">
+        <p class="about__events-text">В нашем ресторане 2-3 раза в неделю проходят различные мероприятия. Обычно это
+            музыкальные выступления, но иногда бывают мероприятия такого рода, как дегустация блюд или праздничные
+            тематические вечеринки. Выступления музыкальных групп обычно попадают на пятницу и субботу, в основном это
+            местые и приглашенные джаз или кантри группы. Они скрасят прекрасный выходной вечер.</p>
+        <div class="upcoming__events">
+            Предстоящие события
+        </div>
+    </section>
+
+    <section class="events">
+        <div class="container__events">
+            <div class="event__block">
+                <img class="events__img" src="images/AlexSkolnickTrio.jpg" alt="Alex Skolnick Trio">
+                <div class="events__date">
+                    <p class="events__month">ДЕК</p>
+                    <p class="events__num-date">25</p>
+                </div>
+                <div class="event__info">
+                    <p class="event__band-name">Alex Skolnick Trio</p>
+                    <p class="event__band-style">Джаз</p>
+                    <div class="event__time">
+                        <i class="fas fa-clock"></i> 19:00 &ndash; 21:30
+                    </div>
+                    <a class="event__more-details" data-fancybox data-src="#event-num1"
+                        href="javascript:;">Подробнее</a>
+                </div>
+            </div>
+            <div class="event__block">
+                <img class="events__img" src="images/TheBadPlus.jpg" alt="The Bad Plus">
+                <div class="events__date">
+                    <p class="events__month">ДЕК</p>
+                    <p class="events__num-date">26</p>
+                </div>
+                <div class="event__info">
+                    <p class="event__band-name">The Bad Plus</p>
+                    <p class="event__band-style">Джаз &bull; авангардный джаз</p>
+                    <div class="event__time">
+                        <i class="fas fa-clock"></i> 21:00 &ndash; 23:00
+                    </div>
+                    <a class="event__more-details" data-fancybox data-src="#event-num2"
+                        href="javascript:;">Подробнее</a>
+                </div>
+            </div>
+            <div class="event__block">
+                <img class="events__img" src="images/TubaSkinny.jpeg" alt="Tuba Skinny">
+                <div class="events__date">
+                    <p class="events__month">ЯНВ</p>
+                    <p class="events__num-date">10</p>
+                </div>
+                <div class="event__info">
+                    <p class="event__band-name">Tuba Skinny</p>
+                    <p class="event__band-style">Свинг &bull; блюз &bull; регтайм</p>
+                    <div class="event__time">
+                        <i class="fas fa-clock"></i> 20:30 &ndash; 21:50
+                    </div>
+                    <a class="event__more-details" data-fancybox data-src="#event-num3"
+                        href="javascript:;">Подробнее</a>
+                </div>
+            </div>
+            <div class="event__block">
+                <img class="events__img" src="images/WillieNelson.jpg" alt="Willie Nelson">
+                <div class="events__date">
+                    <p class="events__month">ФЕВ</p>
+                    <p class="events__num-date">7</p>
+                </div>
+                <div class="event__info">
+                    <p class="event__band-name">Willie Nelson</p>
+                    <p class="event__band-style">Кантри &bull; кантри-рок</p>
+                    <div class="event__time">
+                        <i class="fas fa-clock"></i> 19:40 &ndash; 21:20
+                    </div>
+                    <a class="event__more-details" data-fancybox data-src="#event-num4"
+                        href="javascript:;">Подробнее</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__content">
+            <p>Подписывайся на нас</p>
+        </div>
+        <div class="footer__social-networks">
+            <a href="#" title="Green kitchen instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" title="Green kitchen facebook"><i class="fab fa-facebook-square"></i></a>
+            <a href="#" title="Green kitchen telegram"><i class="fab fa-telegram"></i></a>
+            <a href="#" title="Green kitchen vk"><i class="fab fa-vk"></i></a>
+            <a href="#" title="Green kitchen twitter"><i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="footer__bottom__content">
+            <p>&copy; Green kitchen 2020 &bull; Комсомольская 0, Минск &bull; 375(29)0000000 &bull; designed by
+                Artem Karbanovich</p>
+        </div>
+    </footer>
+
+    <section class="pop-up__hide">
+        <div id="event-num1" class="event__pop-up">
+            <p class="event__pop-up__band-name">Alex Skolnik Trio</p>
+            <img class="event__pop-up__photo" src="images/AlexSkolnickTrio_pop-up.jpg" alt="Alex Skolnick Trio">
+            <div class="event__pop-up__info">
+                <p class="pop-up__music-style"><b>Жанр:</b> <span>джаз</span></p>
+                <p class="pop-up__band-info"><b>Alex Skolnick Trio</b> &ndash; это американское джазовое трио, созданное
+                    гитаристом Алекс Сколником, известным по трэш-метал-группе Testament, ударником Мэтом Зебровски и
+                    басистом Натаном Пэком.<span class="dots">..</span><span class="pop-up__more-text"> С 2001 по 2003
+                        год в группе на бас-гитаре играл Джон Дэвис. Трио известно тем, что исполняет каверы на песни
+                        различных групп классического рока и хеви-метала &ndash; они называют это &laquo;современными
+                        стандартами&raquo;. Со времени выпуска своего первого альбома трио всё больше двигается в
+                        сторону исполнения собственного материала, на втором альбоме половина песен являются их
+                        собственными, а на третьем уже всего три кавера. Их четвёрный альбом, Veritas, содержит всего
+                        один кавер.</span></p>
+                <div onclick="readmore()" class="btn__more-less">Показатель больше</div>
+                <p class="pop-up__event-when"><b><i class="fas fa-clock"></i> Когда</b></p>
+                <p class="pop-up__event-time">Пятница, 25 декабря, 19:00 &ndash; 21:30</p>
+            </div>
+        </div>
+        <div id="event-num2" class="event__pop-up">
+            <p class="event__pop-up__band-name">The Bad Plus</p>
+            <img class="event__pop-up__photo" src="images/TheBadPlus_pop-up.jpg" alt="The Bad Plus">
+            <div class="event__pop-up__info">
+                <p class="pop-up__music-style"><b>Жанр:</b> <span>джаз, авангардный джаз</span></p>
+                <p class="pop-up__band-info"><b>The Bad Plus</b> &ndash; это американское джазовое трио из Миннеаполиса,
+                    США, в состав которого входят басист Рид Андерсон, пианист Оррин Эванс и барабанщик Дэйв Кинг.<span
+                        class="dots">..</span><span class="pop-up__more-text"> Итан Айверсон, Рид Андерсон и Дэвид Кинг
+                        впервые сыграли вместе в 1989 году, но создали The Bad Plus в 2000 году. Группа записала свой
+                        первый альбом, выпущенный на Fresh Sound, после того, как отыграли вместе всего три
+                        концерта. В музыке трио сочитаются элементы современного авангардного джаза с элементами рока и
+                        поп-музыки. 10 апреля 2017 года группа опубликовала заявление о том, что Итан Айверсон
+                        расстается с группой в конце 2017 года, а Орин Эванс заменит его на фортепиано с 1 января 2018
+                        года.</span></p>
+                <div onclick="readmore()" class="btn__more-less">Показатель больше</div>
+                <p class="pop-up__event-when"><b><i class="fas fa-clock"></i> Когда</b></p>
+                <p class="pop-up__event-time">Суббота, 26 декабря, 21:00 &ndash; 23:00</p>
+            </div>
+        </div>
+        <div id="event-num3" class="event__pop-up">
+            <p class="event__pop-up__band-name">Tuba Skinny</p>
+            <img class="event__pop-up__photo" src="images/TubaSkinny_pop-up.jpg" alt="Tuba Skinny">
+            <div class="event__pop-up__info">
+                <p class="pop-up__music-style"><b>Жанр:</b> <span>свинг, блюз, регтайм</span></p>
+                <p class="pop-up__band-info"><b>Tuba Skinny</b> &ndash; это традиционный джаз-бэнд, основанный в Новом
+                    Орлеане в 2009 году.<span class="dots">..</span><span class="pop-up__more-text"> Коллектив был
+                        вдохновлен ранним джазом и блюзом 1920-х и 1930-х годов. Группа выступала на улицах и сценах по
+                        всему миру, включая музыкальные фестивали в Мексике, Швеции, Австралии, Италии, Франции,
+                        Беларуси, Франции и Италии. Состав этого коллектива играет на таких инструментах как, корнет,
+                        кларнет, саксофон, тромбон, гитара, туба, банджо и стиральная доска. Offbeat Magazine наградил
+                        альбом Owl Call Blues как лучший альбом в жанре традиционного джаза 2014-го года. Эта премия
+                        была основана в 1994 году и вручается только музыкантам из Луизианы.</span></p>
+                <div onclick="readmore()" class="btn__more-less">Показатель больше</div>
+                <p class="pop-up__event-when"><b><i class="fas fa-clock"></i> Когда</b></p>
+                <p class="pop-up__event-time">Воскресенье, 10 января, 20:30 &ndash; 21:50</p>
+            </div>
+        </div>
+        <div id="event-num4" class="event__pop-up">
+            <p class="event__pop-up__band-name">Willie Nelson</p>
+            <img class="event__pop-up__photo" src="images/WillieNelson_pop-up.jpg" alt="Willie Nelson">
+            <div class="event__pop-up__info">
+                <p class="pop-up__music-style"><b>Жанр:</b> <span>кантри, кантри-рок, альт-кантри</span></p>
+                <p class="pop-up__band-info"><b>Willie Nelson</b> &ndash; американский композитор и певец,
+                    работающий в стиле кантри. Обладатель 12 наград &laquo;Грэмми&raquo;, в том числе в номинациях
+                    &laquo;Музыкальная легенда&raquo; (1990) и &laquo;За жизненные достижения&raquo; (2000). Включен
+                    в зал славы кантри (1993).<span class="dots">..</span><span class="pop-up__more-text"> На его
+                        счету более сотни пластинок, десяток из которых стали мультиплатиновыми, на 70-летие ему
+                        подарили ни много, ни мало &ndash; знамя Техаса, а сенаторы штата скопом выразили
+                        благодарность за то, что он соизволил прервать турне ради встречи с ними. Вилли Нельсон
+                        успел сняться в нескольких десятках фильмов, записаться с самыми известными музыкантами (от
+                        Боба Дилона до Хулио Иглесиаса), стать первым кантри-исполнителем, заключившим контракт с
+                        &quot;Island Records&quot;, поработать с Дэниэлем Лануа. Он просто всегда знал, что должен
+                        играть &ndash; даже тогда, когда казалось, что позади река виски, а впереди ни денег, ни
+                        признания.</span></p>
+                <div onclick="readmore()" class="btn__more-less">Показатель больше</div>
+                <p class="pop-up__event-when"><b><i class="fas fa-clock"></i> Когда</b></p>
+                <p class="pop-up__event-time">Суббота, 7 февраля, 19:40 &ndash; 21:20</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://kit.fontawesome.com/fe9e4f475c.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/pop-up_readmore.js"></script>
+</body>
+
+</html>

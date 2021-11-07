@@ -1,0 +1,351 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.header__common
+{
+    background-image: url(../images/headerevents.jpg);
+}
+.about__events
+{
+    max-width: 1230px;
+    margin: 0 auto;
+}
+.about__events-text
+{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 20px;
+    text-align: justify;
+    font-family: 'Commissioner', sans-serif;
+    font-size: 19px;
+    text-indent: 23px;
+    color: black;
+    line-height: 1.1;
+}
+.upcoming__events
+{
+    max-width: 400px;
+    text-align: left;
+    margin-top: 40px;
+    font-family: 'Marck Script', cursive;
+    font-size: 40px;
+    padding-left: 15px;
+}
+.container__events
+{
+    padding-top: 5px;
+    max-width: 1250px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+}
+.event__block
+{
+    width: 290px;
+    height: 400px;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    margin: 10px;
+}
+.events__img
+{
+    width: 290px;
+    height: 240px;
+    border-radius: 21px 20px 0px 0px;
+}
+.events__date
+{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 20px 0px 20px 0px;
+    top: 0;
+    left: 0;
+    background-color: #ffe0c9;
+}
+.events__month
+{
+    padding-top: 7px;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    color: #9c1f00;
+}
+.events__num-date
+{
+    color: #9c1f00;
+    margin-top: -2px;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 600;
+}
+.event__info
+{
+    margin-top: -4px;
+    background-color: #ffe0c9;
+    width: 290px;
+    height: 160px;
+    border-radius: 0px 0px 20px 20px;
+}
+.event__band-name
+{
+    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+    padding-top: 10px;
+    font-weight: 600;
+    color: black;
+    text-align: left;
+    padding-left: 15px;
+}
+.event__band-style
+{
+    padding-top: 7px;
+    padding-left: 15px;
+    text-align: left;
+    font-family: 'Comfortaa', cursive;
+    color: rgb(130, 130, 130);
+    font-size: 16px;
+}
+.event__time
+{
+    display: block;
+    margin-left: 15px;
+    margin-top: 11px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Comfortaa', cursive;
+    padding-bottom: 15px;
+}
+.event__time i
+{
+    font-size: 17px;
+}
+.event__more-details
+{
+    display: block;
+    text-decoration: none;
+    margin: 0 auto;
+    text-align: center;
+    width: 155px;
+    background-color: rgb(156, 31, 0, 0.8);
+    font-size: 20px;
+    height: 38px;
+    border-radius: 20px;
+    padding-top: 9px;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+}
+.event__more-details:hover
+{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    transition: 0.8s;
+}
+#event-num1, #event-num2, #event-num3, #event-num4
+{
+    cursor: default;
+    display: none;
+}
+.event__pop-up
+{
+    padding: 0;
+    margin: 0;
+    border-radius: 15px;
+    max-width: 1200px;
+    width: 50%;
+}
+.event__pop-up__band-name
+{
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+}
+.event__pop-up__photo
+{
+    padding-top: 15px;
+    margin: 0 auto;
+    width: 100%;
+}
+.pop-up__music-style
+{   
+    padding-right: 7%;
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+    text-align: left;
+    padding-left: 7%;
+}
+.pop-up__music-style span
+{
+    font-family: 'Commissioner', sans-serif;
+    font-size: 17px;
+}
+.pop-up__band-info
+{
+    padding-top: 20px;
+    font-family: 'Commissioner', sans-serif;
+    padding-left: 7%;
+    text-align: justify;
+    padding-right: 7%;
+    font-size: 17px;
+}
+.pop-up__band-info b
+{
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+}
+.pop-up__more-text
+{
+    display: none;
+}
+.btn__more-less
+{
+    cursor: pointer;
+    padding-left: 7%;
+    font-size: 16px;
+    color: #a9a9a9;
+    font-family: 'Commissioner', sans-serif;
+}
+.pop-up__event-when
+{
+    padding-top: 25px;
+    font-family: 'Comfortaa', cursive;
+    padding-left: 7%;
+    font-size: 20px;
+}
+.pop-up__event-time
+{
+    font-family: 'Commissioner', sans-serif;
+    padding-left: 7%;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+
+@media screen and (max-width: 1200px)
+{
+    .event__pop-up
+    {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 900px)
+{
+    .pop-up__music-style b
+    {
+        font-size: 18px;
+    }
+    .pop-up__music-style span
+    {
+        font-size: 16px;
+    }
+    .pop-up__band-info
+    {
+        font-size: 15px;
+    }
+    .pop-up__band-info b
+    {
+        font-size: 17px;
+    }
+    .pop-up__event-when
+    {
+        font-size: 18px;
+    }
+    .pop-up__event-time
+    {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 750px)
+{
+    .event__pop-up
+    {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 650px)
+{
+    .about__events-text
+    {
+        font-size: 16px;
+    }
+    .upcoming__events
+    {
+        padding-left: 0;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 550px)
+{
+    .event__pop-up
+    {
+        width: 85%;
+    }
+}
+@media screen and (max-width: 450px)
+{
+    .event__pop-up
+    {
+        width: 98%;
+    }
+    .pop-up__music-style b
+    {
+        font-size: 17px;
+    }
+    .pop-up__music-style span
+    {
+        font-size: 14px;
+    }
+    .pop-up__band-info
+    {
+        font-size: 14px;
+    }
+    .pop-up__band-info b
+    {
+        font-size: 16px;
+    }
+    .pop-up__event-when
+    {
+        font-size: 17px;
+    }
+    .pop-up__event-time
+    {
+        font-size: 14px;
+    }
+    .btn__more-less
+    {
+        font-size: 15px;
+    }
+
+}
+@media screen and (max-width: 400px)
+{
+    .about__events-text
+    {
+        font-size: 14px;
+    }
+    .upcoming__events
+    {
+        margin-top: 18px;
+        font-size: 30px;
+    }
+    .event__pop-up__band-name
+    {
+        font-size: 25px;
+    }
+    .btn__more-less
+    {
+        font-size: 14px;
+    }
+}

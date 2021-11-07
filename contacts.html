@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <link rel="shortcut icon" href="images/icon_contacts.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/contactsstyle.css">
+    <link rel="stylesheet" href="css/commonstyles.css">
+</head>
+
+<body>
+
+    <header class="header__common">
+        <div class="header__common-top">
+            <div class="header__common-logo">
+                <img src="images/logo.png" alt="логотип">
+            </div>
+            <div class="return-on__mainpage">
+                <a href="index.html" title="на главную страницу">На главную</a>
+            </div>
+        </div>
+        <div class="header__common-content">
+            Contacts
+        </div>
+        <div class="header__common-greenkitchen">
+            Green kitchen
+        </div>
+    </header>
+
+    <section class="contacts">
+        <div class="contacts__container">
+            <div class="contacts__info">
+                <div class="contacts__info-text">
+                    <p class="heading__info-text">Где мы находимся</p>
+                    <p class="content__info-text">Ресторан &quot;Green kitchen&quot; находится в самом центре Минска,
+                        это означает, что к нам легко добраться как на общественном транспорте, так и из любой точки
+                        города. Сам ресторан расположен на первом и нулевом этаже Института дипломированных геодезистов,
+                        по адресу улица Комсомольская 0. Центральный вход находится снаружи здания, в банкетный зал вход
+                        со двора.</p>
+                    <p class="heading__info-text">Связь с нами</p>
+                    <p class="content__info-text">Если у вас появился вопрос, предложение или комментарий, свяжитесь с
+                        нами любым удобным для вас способом. Спрашивай, нет разумного вопроса на который наша команда не
+                        сможет дать ответ.</p>
+                    <p class="heading__info-text">Социальные сети</p>
+                    <p class="content__info-text">Вы можете подписаться на нас в социальных сетях. Мы часто разыгрываем
+                        подарочные сертификаты на посещение нашего ресторана, уведомляем вас о предстоящих событиях,
+                        сообщаем о новых позициях в меню и многое другое.</p>
+                    <div class="content__info__social-networks">
+                        <a href="#" title="Green kitchen instagram"><i class="fab fa-instagram-square"></i></a>
+                        <a href="#" title="Green kitchen facebook"><i class="fab fa-facebook-square"></i></a>
+                        <a href="#" title="Green kitchen telegram"><i class="fab fa-telegram"></i></a>
+                        <a href="#" title="Green kitchen vk"><i class="fab fa-vk"></i></a>
+                        <a href="#" title="Green kitchen twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="contacts__form">
+                <form action="mail.php" method="POST">
+                    <div class="form-group">
+                        <label>Ваше имя (обязательно)<br></label>
+                        <input type="text" class="form-control" id="" name="user_name" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Ваш e-mail (обязательно)<br></label>
+                        <input type="text" class="form-control" id="" name="user_e-mail" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Тема<br></label>
+                        <input type="text" class="form-control" id="" name="user_subject">
+                    </div>
+                    <div class="form-group">
+                        <label>Ваше сообщение<br></label>
+                        <textarea type="text" class="form-control" id="" name="user_message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacts__map">
+        <script type="text/javascript" charset="utf-8" async
+            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A418f645fa35b9b255175b374338bd086e964289d6bc866ec0b1d3ea9a87ed1e4&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=false"></script>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__content">
+            <p>Подписывайся на нас</p>
+        </div>
+        <div class="footer__social-networks">
+            <a href="#" title="Green kitchen instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" title="Green kitchen facebook"><i class="fab fa-facebook-square"></i></a>
+            <a href="#" title="Green kitchen telegram"><i class="fab fa-telegram"></i></a>
+            <a href="#" title="Green kitchen vk"><i class="fab fa-vk"></i></a>
+            <a href="#" title="Green kitchen twitter"><i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="footer__bottom__content">
+            <p>&copy; Green kitchen 2020 &bull; Комсомольская 0, Минск &bull; 375(29)0000000 &bull; designed by
+                Artem Karbanovich</p>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/fe9e4f475c.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

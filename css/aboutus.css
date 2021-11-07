@@ -1,0 +1,43 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.header__common
+{
+    background-image: url(../images/headeraboutus.jpg);
+}
+.aboutus__container
+{
+    padding-top: 20px;
+    max-width: 1230px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.paragraph
+{
+    text-align: justify;
+    margin-bottom: 20px;
+    font-family: 'Commissioner', sans-serif;
+    font-size: 18px;
+    text-indent: 23px;
+    color: black;
+    line-height: 1.1;
+}
+
+@media screen and (max-width: 600px)
+{
+    .paragraph
+    {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 335px)
+{
+    .paragraph
+    {
+        font-size: 15px;
+    }
+}
